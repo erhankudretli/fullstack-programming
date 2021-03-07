@@ -1,10 +1,10 @@
 /*
 -user interaction 
-4 islemi barindiran bir ek modul yazmamiz istendi.
+4 islemi barindiran bir ek modul yazacagim.
 - technical details
-4 islem icin 4 fonksiyon yazilir.
-function.js te module exports objesi olusturulur.
-index.js te require ile fonksiyonlarin adresi belirtilir.*/
+4 islem icin 4 fonksiyon yazacagim, toplama,cikarma,carpma ve bölme
+function.js te module exports objesi olusturacagim
+index.js te require ile fonksiyonlarin import edecegim.*/
 
 const {collect, subs, mult, divise} = require("./function"); 
 
