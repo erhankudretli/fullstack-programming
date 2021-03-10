@@ -16,5 +16,5 @@ const HicriyeCevir=require("./src/hicri-converter");
 const miladiYil=2021;
 const hicriYil=1453;
 
-console.log(miladiYil+"'i HICRI yila cevirirsek "+HicriyeCevir(miladiYil)+" olur." );
-console.log(hicriYil+"'i MILADI yila cevirirsek "+MiladiyeCevir(hicriYil) +" olur.");
+console.log("Miladi " +miladiYil+  " hicri olarak " +HicriyeCevir(miladiYil)+" olur." );
+console.log("Hicri  "+hicriYil+ " hicri olarak " +  +MiladiyeCevir(hicriYil)+  " olur.");
