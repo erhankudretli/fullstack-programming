@@ -1,5 +1,9 @@
-/*
---User interaction--
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import reportWebVitals from './reportWebVitals';
+import FirstComponent from './firstComp';
+/*--User interaction--
     - Ödevde verilen dosya yapisi react yardimiyla web sayfasinda olusturulacak.
 --Technical Details --
     - Istenilen dosya yapisini verecek html blogu bir fonksiyon icinde react a uygun sekilde yazilir
@@ -7,11 +11,7 @@
     - Artik olusturdugumuz dosya yapisini kullanabiliriz. Nerede kullanmak istersek oraya <isim/> bu sekilde yazilir
 */
 
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
-import FirstComponent from './firstComp';
+
 
 
 ReactDOM.render(
