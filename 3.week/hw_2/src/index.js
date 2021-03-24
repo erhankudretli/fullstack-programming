@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import HeaderSection from './components/header';
+import HomeComponent from './components/home';
+import ContactComponent from './components/contact';
 
 
 ReactDOM.render(
   <React.StrictMode>
     <HeaderSection />
+    <HomeComponent/>
+    <ContactComponent/>
   </React.StrictMode>,
   document.getElementById('root')
 );
