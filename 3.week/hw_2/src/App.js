@@ -1,3 +1,12 @@
+/*
+-user interaction 
+Bir tanitim sayfasi olusturmamiz istendi.
+- technical details
+npm react-bootstrap kütüphanesi kullanildi (kutuphane indirilir).
+Dokumantasyona göre sayfa tasarlandi.
+
+ */
+
 import logo from './logo.svg';
 import './App.css';
 

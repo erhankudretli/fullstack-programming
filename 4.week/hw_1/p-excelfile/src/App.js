@@ -1,6 +1,6 @@
 /*
 -user interaction 
-Disardan eklenen bir excel dosyasini React.js de okuyup tablo olarak yazdirmamiz istendi.
+Disardan eklenen bir excel dosyasini React.js de okuyup tablo olarak yazdiracagiz
 - technical details
 npm i xlsx (kutuphane indirilir).
 exceli okumak icin services dosyasi altinda excelservice.js dosyasi olusturulur.
