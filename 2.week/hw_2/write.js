@@ -23,5 +23,5 @@ const workbook = XLSX.readFile("./Ornek.xlsx"); // excell dosyasi
 
 const SdataJson = XLSX.utils.json_to_sheet(db) // sample data excel formatina cevrildi
 
-XLSX.utils.book_append_sheet(workbook, SdataJson, "Yenidosya2") // workbook dosyasinda NewSheet isminde bir sayfa olustu ve Sdata Json buraya eklendi
+XLSX.utils.book_append_sheet(workbook, SdataJson, "Yenidosya5") // workbook dosyasinda NewSheet isminde bir sayfa olustu ve Sdata Json buraya eklendi
 XLSX.writeFile(workbook, './Ornek.xlsx') // eklenen ve olusturuan bilgiler kaydedildi. 
