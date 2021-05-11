@@ -1,0 +1,80 @@
+.App {
+  width: 90vw;
+  margin: auto;
+  text-align: center;
+}
+
+.home {
+  margin: auto;
+
+  width: 90vw;
+  color: black;
+  font-family: cursive;
+}
+
+ul {
+  list-style-type: none;
+  margin: 2vw;
+  background-color: rgb(124, 124, 124);
+  padding: 2vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+ul li {
+  font-size: large;
+
+  padding: 10px;
+
+}
+
+ul li:hover {
+  background-color: rgb(62, 122, 252);
+  color: white;
+}
+
+.form {
+  background-color: rgb(227, 237, 255);
+  color: rgb(0, 0, 0);
+}
+
+
+
+table {
+
+  background-color: rgb(112, 133, 252);
+  margin: auto
+}
+
+table td {
+  padding: 1vw;
+  color: rgb(113, 6, 212);
+  width: 8vw;
+  margin: auto;
+}
+
+table th {
+  padding: 1vw;
+  color: rgb(255, 255, 255);
+  width: 8vw;
+  margin: auto;
+}
+
+table tr {
+
+  padding: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+tr :nth-child(5) {
+  width: 25vw;
+}
+
+.header {
+  font-family: cursive;
+  padding: 2vw;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+}
